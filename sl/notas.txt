@@ -1,0 +1,12 @@
+Para empaquetar 
+Creamos una carpeta sl
+apt-get source sl
+cd sl-03
+modificamos sl.h y agregamos nuestro nombre
+dpkg-buildpackage -us -us
+dpkg-source –commit
+dpkg-buildpackage -us -uc
+luego nos vamos a un directorio atras y vemos el .deb
+procedemos a instalarlo.
+Sale el tren con nuestro nombre.
+
