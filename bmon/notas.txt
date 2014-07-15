@@ -1,0 +1,15 @@
+Para empaquetar 
+Creamos una carpeta bmon
+apt-get source bmon
+entramos a bmo-1-01
+modificamos out_curses out_ascii.c
+buscamos con control+w la palabra interface en ambos archivos
+cambiamos los datos de interface por tarjeta de red su nombre y cambiamos Rate por Tasa
+guardamos los dos archivos.
+cd..
+dpkg-buildpackage -us -us
+el nos creará un .deb
+que instalamos con dpkg -i paquete.
+luego probamos el programa.
+luego subimos a github.
+
