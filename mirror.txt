@@ -1,0 +1,6 @@
+probar el mirror de manera local
+luego visaulizamos el mirror por nuestra ip
+ifconfig wlan0
+entran al /etc/hosts/ cambian el nombre canaima.popular
+colocan su nombre
+y por ultimo hacen un enlace simbólico de la carpeta control dentro de /var/www/
