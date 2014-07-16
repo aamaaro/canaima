@@ -1,0 +1,75 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ canaima-bienvenido-gnome (4.7) stable; urgency=low
+ .
+   * [fb7eebf] Cambiando escudo de la img venezuela del arcerca
+Author: Carlos Espinoza <carlosarmikhael@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- canaima-bienvenido-gnome-4.7.orig/canaima-bienvenido-gnome-auto.desktop
++++ canaima-bienvenido-gnome-4.7/canaima-bienvenido-gnome-auto.desktop
+@@ -1,15 +1,15 @@
+ [Desktop Entry]
+-Name=Bienvenido a Canaima GNU/Linux
+-Name[es_VE]=Bienvenido a Canaima GNU/Linux
+-GenericName=Bienvenido a Canaima GNU/Linux
+-GenericName[es_VE]=Bienvenido a Canaima GNU/Linux
+-Comment=Menu de Bienvenida de Canaima GNU/Linux
+-Comment[es_VE]=Menu de Bienvenida de Canaima GNU/Linux
++Name=Bienvenido a Canaima Apure GNU/Linux
++Name[es_VE]=Bienvenido a Canaima Apure GNU/Linux
++GenericName=Bienvenido a Canaima Apure GNU/Linux
++GenericName[es_VE]=Bienvenido a Canaima Apure GNU/Linux
++Comment=Menu de Bienvenida de Canaima Apure GNU/Linux
++Comment[es_VE]=Menu de Bienvenida de Canaima Apure GNU/Linux
+ Exec=/usr/bin/canaima-bienvenido-gnome auto
+ Terminal=false
+ Type=Application
+ StartupNotify=true
+ Icon=/usr/share/icons/Gnamon/places/48/canaima-logo.png
+ Categories=GNOME;GTK;Utility;
+-X-GNOME-FullName=Menu de Bienvenida de Canaima GNU/Linux
+-X-GNOME-FullName[es]=Menu de Bienvenida de Canaima GNU/Linux
++X-GNOME-FullName=Menu de Bienvenida de Canaima Apure GNU/Linux
++X-GNOME-FullName[es]=Menu de Bienvenida de Canaima Apure GNU/Linux
+--- canaima-bienvenido-gnome-4.7.orig/canaima-bienvenido-gnome.desktop
++++ canaima-bienvenido-gnome-4.7/canaima-bienvenido-gnome.desktop
+@@ -1,13 +1,13 @@
+ [Desktop Entry]
+-Name=Canaima bienvenido
+-Name[es_VE]=Canaima bienvenido
+-GenericName=Canaima bienvenido
+-GenericName[es_VE]=Canaima bienvenido
+-Comment=Canaima bienvenido
+-Comment[es_VE]=Canaima bienvenido
++Name=Canaima Apure bienvenido
++Name[es_VE]=Canaima Apure  bienvenido
++GenericName=Canaima Apure bienvenido
++GenericName[es_VE]=Canaima Apure bienvenido
++Comment=Canaima Apure bienvenido
++Comment[es_VE]=Canaima Apure bienvenido
+ Exec=canaima-bienvenido-gnome
+ Type=Application
+ Icon=/usr/share/icons/Gnamon/places/scalable/canaima-logo.svg
+ Categories=GNOME;GTK;Utility;
+-X-GNOME-FullName=Canaima bienvenido
+-X-GNOME-FullName[es]=Canaima bienvenido
++X-GNOME-FullName=Canaima Apure bienvenido
++X-GNOME-FullName[es]=Canaima Apure bienvenido
