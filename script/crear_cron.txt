@@ -1,0 +1,7 @@
+su
+crontab -l
+crontab -e
+luego agrego mi ruta del scrip inicializando con sh
+* * * * * sh /home/academia/control/canaima/script/script.sh
+reinicio el servicio /etc/init.d/cron restart
+reviso si copio la carpeta
